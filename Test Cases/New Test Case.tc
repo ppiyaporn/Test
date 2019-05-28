@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login_Katalon</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>758c656f-dedd-41c7-9d50-31ee823eb6a7</testCaseGuid>
+   <testCaseGuid>5ea2fcf4-902a-40d3-91cc-af2104b66a5c</testCaseGuid>
 </TestCaseEntity>

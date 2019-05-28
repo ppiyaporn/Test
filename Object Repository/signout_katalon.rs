@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>signin_button</name>
+   <name>signout_katalon</name>
    <tag></tag>
-   <elementGuidId>0bd24d82-2304-42a5-b5e6-46c0f69e6f3c</elementGuidId>
+   <elementGuidId>766a1d87-e0d2-44db-a7f2-5f1f8162a671</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'login-btn']</value>
+         <value>(//a[contains(text(),'Sign out')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>login-btn</value>
+      <value>(//a[contains(text(),'Sign out')])[2]</value>
    </webElementProperties>
 </WebElementEntity>

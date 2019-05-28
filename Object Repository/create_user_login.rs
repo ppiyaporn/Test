@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>signin_button</name>
+   <name>create_user_login</name>
    <tag></tag>
-   <elementGuidId>0bd24d82-2304-42a5-b5e6-46c0f69e6f3c</elementGuidId>
+   <elementGuidId>3f9197a7-37ca-48a6-bd61-fea56c65023f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'login-btn']</value>
+         <value>//*[@id = 'user_login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-btn</value>
+      <value>user_login</value>
    </webElementProperties>
 </WebElementEntity>

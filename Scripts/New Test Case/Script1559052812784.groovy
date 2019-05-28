@@ -13,25 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String email = 'pengnamsuwan@gmail.com'
-String password = 'MooMai1125'
+WebUI.openBrowser('')
 
-WebUI.openBrowser('https://katalon.com/')
+WebUI.navigateToUrl('https://www.katalon.com/')
 
+WebUI.click(findTestObject('null'))
 
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/login_katalon'))
-WebUI.delay(6)
+WebUI.setText(findTestObject('null'), 
+    'pengnamsuwan@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/input_email'), email)
-WebUI.delay(5)
-WebUI.setText(findTestObject('Object Repository/input_pass'), password)
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/signin_button'))
-WebUI.delay(5)
-WebUI.verifyTextPresent('Sign out', false)
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/signout_katalon'))
-WebUI.delay(6)
-WebUI.verifyTextPresent('Login', false)
-WebUI.delay(5)
+WebUI.setEncryptedText(findTestObject('null'), 
+    'idZBLGUvgVEMkLMHAXLsog==')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.setEncryptedText(findTestObject('null'), 
+    'FQoPQsTpe2/GXXQ/ZkfXWQ==')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.closeBrowser()
+

@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//a[contains(text(),'Login')])[2][count(. | //*[@test = 'Login']) = count(//*[@test = 'Login'])]</value>
+         <value>(//a[contains(text(),'Login')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>test</name>
       <type>Main</type>
